@@ -13,20 +13,24 @@ System requirement:
 ==================
 1) Linux or other Posix compatible system
 
-2) Python 2.7 (Most Linux distributions install it by default)
+2) We do not provide package, to download, you need git. (Official website: http://git-scm.com/)
 
-3) pexpect (official website: http://pexpect.readthedocs.org/en/latest/)
+3) Python 2.7 (Most Linux distributions install it by default)
 
-4) Well installed Nethack(should be install properly in your /usr or /usr/local)
+4) pexpect (official website: http://pexpect.readthedocs.org/en/latest/)
+
+5) Well installed Nethack(should be install properly in your /usr or /usr/local)
 
 For more information, please read: http://wealthlibre.info/blog/nethack-and-its-start-scumming and http://wealthlibre.info/blog/20140109-update-of-nethack-start-scumming-bot
 
 Installation:
 ==================
-(TO DO)
+$ git clone https://github.com/bolan/nethack-expect-wiz
+
+$ cd nethack-expect-wiz
 
 Usage:
 ==================
 $ python nh-expect-wiz.py
 
-Once you get the "expected wizard", you will see "You get an expected Wizard." at the bottom of your Unix console. 
+On your running console, 0 means that you got the stuff, 1 means that you did not get the stuff. Once you get all the conditions -- the "expected wizard", you will see "You get an expected Wizard." at the bottom of your Unix console. You can run your nethack on a normal way.
