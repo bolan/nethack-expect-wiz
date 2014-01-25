@@ -12,15 +12,18 @@ Features:
 System requirement:
 ==================
 1) Linux or other Posix compatible system
+
 2) Python 2.7 (Most Linux distributions install it by default)
+
 3) pexpect (official website: http://pexpect.readthedocs.org/en/latest/)
+
 4) Well installed Nethack(should be install properly in your /usr or /usr/local)
 
 For more information, please read: http://wealthlibre.info/blog/nethack-and-its-start-scumming and http://wealthlibre.info/blog/20140109-update-of-nethack-start-scumming-bot
 
 Installation:
 ==================
-$ wget -O nh-expect-wiz.py http://wealthlibre.info/static/webup-2014-01-09-110945-nh-expect-wiz.py
+(TO DO)
 
 Usage:
 ==================
