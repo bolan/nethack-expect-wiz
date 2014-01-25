@@ -35,7 +35,7 @@ while (spellbook != 0 or intelligence != 0 or ring1 !=0):
     #child.expect('a - ')
     #ring2 = child.expect(['ring of foo',  'Wands'])
     child.writelines('    ')
-    if (tooledHorn != 0):
+    if (spellbook != 0 or intelligence != 0 or ring1 !=0):
         child.sendline('#quit')
         #child.expect('Really')
         child.writelines('y       ')
